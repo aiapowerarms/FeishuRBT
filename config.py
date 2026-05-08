@@ -16,7 +16,7 @@ class Config:
     APP_SECRET = os.environ.get("APP_SECRET", "your_app_secret")
     BOT_NAME = os.environ.get("BOT_NAME", "Dify机器人")
     BOT_OPEN_ID = os.environ.get("BOT_OPEN_ID", "")
-
+    ADMIN_ID_LIST = ["ou_8a9da14eb398e55c550c5bcd9d658316"]
     # API配置
     MAX_RETRIES = 3
     INITIAL_RETRY_DELAY = 2
