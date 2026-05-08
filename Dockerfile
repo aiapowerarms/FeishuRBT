@@ -19,7 +19,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # 创建数据目录
 RUN mkdir -p /app/data
-
+COPY . .
 EXPOSE 8080
 
 # 简单的健康检查
